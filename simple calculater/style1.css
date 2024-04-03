@@ -1,0 +1,20 @@
+.calculator {
+    padding: 10px;
+    border-radius: 1em;
+    height: 380px;
+    width: 400px;
+    margin: auto;
+    background-color: bisque;
+}
+
+.display-box
+{
+    height:70px;
+    width:70%;
+    color: black;
+    background-color: aliceblue;
+}
+
+
+
+

@@ -1,0 +1,9 @@
+div.container{
+    width: 100%;
+    overflow: auto;
+}
+
+div.mycontainer fieldset{
+    width: 20%;
+    float: left;
+}

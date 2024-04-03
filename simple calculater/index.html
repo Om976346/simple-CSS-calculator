@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" name="mainForm"></form>
+    <div class="mycontainer">
+        <fieldset>
+            <div style="background-color: aquamarine;">
+            First Number: <br>
+            <input type="text" id="text1">
+            <br>
+            Second Number: <br>
+            <input type="text" id="text2" onchange="addC()">
+            <br>
+            Result : <br>
+            <input type="text" id="res" disabled>
+            </div>
+            <input type="button" value="Sum" onclick="addC()">
+        </fieldset>
+    </div>
+    
+
+    <div class="mycontainer">
+        <fieldset>
+            <div style="background-color: rgb(127, 193, 255);">
+            First Number: <br>
+            <input type="text" id="text11">
+            <br>
+            Second Number: <br>
+            <input type="text" id="text21">
+            <br>
+            Result : <br>
+            <input type="text" id="res1" disabled>
+            </div>
+            <input type="button" value="Difference" onclick="diffC()">
+        </fieldset>
+    </div>
+
+    <div class="mycontainer">
+        <fieldset>
+            <div style="background-color: rgb(255, 127, 127);">
+            First Number: <br>
+            <input type="text" id="text12">
+            <br>
+            Second Number: <br>
+            <input type="text" id="text22">
+            <br>
+            Result : <br>
+            <input type="text" id="res2" disabled>
+            </div>
+            <input type="button" value="Product" onclick="productC()">
+        </fieldset>
+    </div>
+
+    <div class="mycontainer">
+        <fieldset>
+            <div style="background-color: rgb(255, 127, 255);">
+            First Number: <br>
+            <input type="text" id="text13">
+            <br>
+            Result : <br>
+            <input type="text" id="res3" disabled>
+            </div>
+            <input type="button" value="Square Root" onclick="divC()">
+        </fieldset>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
